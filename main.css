@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+
+	
+		
+nav ul {
+
+    margin: 0;
+
+    padding: 0
+
+}
+
+ 
+
+nav li {
+
+    list-style: none;
+
+    font-size: 12px;
+
+    float: left;
+
+    text-align: center;
+
+}
+
+ 
+
+nav li a {
+
+    display: block;
+
+    text-decoration: none;
+
+    margin-right: 0;   /* space between links */
+
+    width: auto;   /* adjust width as needed or use auto */
+
+    padding: 6px;
+
+    font-weight: bold;
+
+    line-height: 2em;
+
+    color:#1e5799;
+
+    border-right: 1px solid #000;
+
+}
+
+/**remove from last item**/
+
+nav li:last-child a {
+
+    border:none;
+
+}
+
+ 
+
+/**float clearing**/
+
+nav:after {
+
+     content: '';
+
+     clear:left;
+
+     display:block;
+
+}
+
+ 
+		
+		
+		
