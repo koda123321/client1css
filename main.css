@@ -57,7 +57,7 @@
 
 /**float clearing**/
 
-  #lang :after {
+  #lang:after {
 
      content: '';
 
