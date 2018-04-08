@@ -1,5 +1,5 @@
 		
-nav .lang ul {
+ .lang ul {
 
     margin: 0;
 
@@ -9,7 +9,7 @@ nav .lang ul {
 
  
 
-nav .lang li {
+ .lang li {
 
     list-style: none;
 
@@ -23,7 +23,7 @@ nav .lang li {
 
  
 
-nav .lang li a {
+ .lang li a {
 
     display: block;
 
@@ -47,7 +47,7 @@ nav .lang li a {
 
 /**remove from last item**/
 
-nav1 li:last-child a {
+.lang li:last-child a {
 
     border:none;
 
@@ -57,7 +57,7 @@ nav1 li:last-child a {
 
 /**float clearing**/
 
-nav .lang :after {
+ .lang :after {
 
      content: '';
 
