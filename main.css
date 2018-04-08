@@ -1,5 +1,5 @@
 		
- nav1 ul1 {
+ nav.one ul.two {
 
     margin: 0;
 
@@ -9,7 +9,7 @@
 
  
 
-  nav1 li1 {
+  nav.one li.three {
 
     list-style: none;
 
@@ -23,7 +23,7 @@
 
  
 
-nav1 li1 a1 {
+nav.one li.three a.four {
 
     display: block;
 
@@ -47,7 +47,7 @@ nav1 li1 a1 {
 
 /**remove from last item**/
 
-nav1 li1:last-child a1 {
+nav.one li.three:last-child a.four {
 
     border:none;
 
@@ -57,7 +57,7 @@ nav1 li1:last-child a1 {
 
 /**float clearing**/
 
-  nav1:after {
+  nav.one:after {
 
      content: '';
 
